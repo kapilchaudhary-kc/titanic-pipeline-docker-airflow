@@ -1,0 +1,33 @@
+# Virtual environment
+titanic_venv/
+*.venv/
+*.env
+
+# Airflow logs and data
+logs/
+*.log
+*.pid
+*.swp
+*.sqlite
+*.db
+
+# Docker
+*.env
+*.swp
+__pycache__/
+.dockerignore
+
+# Data files
+*.csv
+*.pkl
+data/
+
+# Python cache files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# OS generated files
+.DS_Store
+Thumbs.db
